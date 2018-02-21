@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Employee Information</title>
+		<style>
+			table,th,td{
+				border: 1px solid black;
+				border-collapse: collapse;
+				padding: 5px;
+			}
+			th,td{
+				width : 80px;
+			}
+			body{
+				margin-left: 450px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<h3>Employee's Name</h3>	
+			<div style= "float:left;">
+				<input type="text" name="firstname" size = "35"><br>
+				<small>First Name</small>
+			</div>
+			
+			<div>
+				<input type="text" name="lastname" size = "35"><br>
+				<small>Last Name</small>
+			</div>
+				
+			<div>
+				<h3>Employee's HireDate</h3>
+				<select name="date">
+					<option value=" "></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+				<select name="month">
+					<option value=" "></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+				<select name="year">
+					<option value=" "></option>
+					<option value="1">2000</option>
+					<option value="2">2001</option>
+					<option value="3">2002</option>
+					<option value="4">2003</option>
+					<option value="5">2004</option>
+					<option value="6">2005</option>
+					<option value="7">2006</option>
+					<option value="8">2007</option>
+					<option value="9">2008</option>
+					<option value="10">2009</option>					
+				</select>
+			</div>
+			
+			<div">
+				<h3>Employee's Title</h3>
+				<input type="text" name="title" size="75">
+			</div>
+			
+			<div>
+				<h3>Employee's Department</h3>
+				<select name="date" width="100%">
+					<option value="m">Marketing</option>
+					<option value="m">Marketing</option>
+					<option value="m">Marketing</option>
+				</select>
+			</div>
+			
+			<div>
+				<h3>Performance Evaluation</h3>
+				<table>
+					<tr>
+						<td></td>
+						<td>Very Good</td>
+						<td>Good</td>
+						<td>Fair</td>
+						<td>Poor</td>
+						<td>Very Poor</td>
+					</tr>
+					<tr>
+						<td>Attecdance</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+					<tr>
+						<td>Quality of Worke</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+					<tr>
+						<td>Quantity of Work</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+					<tr>
+						<td>Attitude</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+					<tr>
+						<td>Dependability</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+					<tr>
+						<td>Work Ethic</td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+						<td><input type="radio" name="AV" ></td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<h3>Overall,I would rank this employee's performance as:</h3>
+				<input type="radio" name="AV"> Very good
+				<input type="radio" name="AV"> Good
+				<input type="radio" name="AV"> Fair
+				<input type="radio" name="AV"> Poor
+				<input type="radio" name="AV"> Very poor
+			</div>
+			<div>
+				<h3>Please go into more detail on why you chose this ranking</h3>
+				<textarea rows="6" cols="65">
+				
+				</textarea>
+			</div>
+			<h3>Supervisor's Name</h3>	
+			<div style= "float:left;">
+				<input type="text" name="firstname" size = "35"><br>
+				<small>First Name</small>
+			</div>
+			
+			<div>
+				<input type="text" name="lastname" size = "35"><br>
+				<small>Last Name</small>
+			</div>
+			
+			<div>
+				<h3>Supervisor's Signature</h3>
+				<textarea rows="6" cols="65">
+				
+				</textarea>
+			</div>
+		</form>
+	</body>
+</html> 
